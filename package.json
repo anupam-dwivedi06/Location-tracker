@@ -1,0 +1,26 @@
+{
+  "name": "live-location-tracker",
+  "version": "1.0.0",
+  "description": "This is a app that can show you that the live location of the users those who open the link",
+  "keywords": [
+    "guitar",
+    "anupam",
+    "location"
+  ],
+  "license": "ISC",
+  "author": "Anupam dwivedi",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

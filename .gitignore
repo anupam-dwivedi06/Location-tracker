@@ -1,0 +1,30 @@
+# Node modules (auto-installed, not needed in Git)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Build/compiled files
+dist/
+build/
+
+# Render deployment-specific (optional)
+render.yaml
+
+# Others (if used)
+coverage/
