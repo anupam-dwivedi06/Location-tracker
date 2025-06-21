@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://location-tracker-p0d2.onrender.com");
 
 // Prompt user for name
 const username = prompt("Enter your name") || "Anonymous";
