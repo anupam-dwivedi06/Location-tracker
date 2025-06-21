@@ -4,7 +4,9 @@ const socket = io("https://location-tracker-p0d2.onrender.com");
 const username = prompt("Enter your name") || "Anonymous";
 
 // Extract room ID from URL
-const roomID = window.location.pathname.split("/").pop();
+const urlParams = new URLSearchParams(window.location.search);
+const roomID = urlParams.get("roomID");
+
 
 // Join the specified room on connection
 socket.emit("join-room", roomID);
