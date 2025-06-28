@@ -9,7 +9,7 @@ socket.emit("join-room", roomID);
 // Setup Leaflet map
 const map = L.map("map").setView([0, 0], 10);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: "Anupam dwivedi house",
+  attribution: "You can see EachOther",
 }).addTo(map);
 
 // Store user markers
